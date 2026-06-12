@@ -1,0 +1,7 @@
+# ninja log v5
+7	491	8029446762619482	CMakeFiles/CppMessageBoard.dir/src/http/HttpServer.cpp.obj	7ff7e314968b156a
+12	494	8029446762629472	CMakeFiles/CppMessageBoard.dir/src/storage/Database.cpp.obj	f7701002a2d4a12c
+0	575	8029446763459180	CMakeFiles/CppMessageBoard.dir/main.cpp.obj	8729eecbe70b2f04
+575	917	8029446766787886	CppMessageBoard.exe	c16f424d42e158b7
+0	381	8029447099239751	CMakeFiles/CppMessageBoard.dir/main.cpp.obj	8729eecbe70b2f04
+382	585	8029447100930787	CppMessageBoard.exe	c16f424d42e158b7

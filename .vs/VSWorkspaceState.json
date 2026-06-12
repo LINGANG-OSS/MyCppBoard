@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\include",
+    "\\include\\http",
+    "\\include\\storage",
+    "\\src",
+    "\\src\\http",
+    "\\src\\storage"
+  ],
+  "SelectedNode": "\\main.cpp",
+  "PreviewInSolutionExplorer": false
+}

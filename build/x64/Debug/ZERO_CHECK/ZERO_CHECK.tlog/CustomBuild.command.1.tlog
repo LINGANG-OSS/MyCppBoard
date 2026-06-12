@@ -1,0 +1,10 @@
+^F:\WORK\MYCPPBOARD\BUILD\CMAKEFILES\4461AE8CA959D1B2BC1340C3725D1824\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/work/MyCppBoard -BF:/work/MyCppBoard/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/work/MyCppBoard/build/CppMessageBoard.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

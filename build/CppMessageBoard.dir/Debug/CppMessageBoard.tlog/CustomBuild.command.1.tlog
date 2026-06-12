@@ -1,0 +1,10 @@
+^F:\WORK\MYCPPBOARD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/work/MyCppBoard -BF:/work/MyCppBoard/build --check-stamp-file F:/work/MyCppBoard/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
